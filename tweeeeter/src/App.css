@@ -1,4 +1,4 @@
-.App {
+/**.App {
   text-align: center;
 }
 
@@ -25,5 +25,70 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}**/
+
+/*Header Bar*/
+#headercontainer {
+    margin: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: aliceblue;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+
+#title {
+    position: absolute;
+    font-family: 'Nosifer', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+    left: 40%;
+    top: 2%;
+}
+
+.body {
+    top: 30%;
+    background: #00a5e7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #35ce94, #00a5e7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #35ce94, #00a5e7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #35ce94, #00a5e7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #35ce94, #00a5e7); /* Standard syntax (must be last) */
+}
+
+#bodyContainer {
+    margin-top: 50px;
+
+}
+
+.w3-card-4 {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+/*Home box internal content*/
+#homeContainer{
+    background:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+            )
+}
+#textParagraph{
+    padding: 40px 0px 0px 30px;
+    font-family: 'Special Elite', cursive;
+}
+
+
+/*Content*/
+#contentContainer {
+    position: fixed;
+    left: 50%;
+    height: 70%;
+    width: 48%
+}
+
+#textAreaBox{
+    position: relative;
+    width: 92%;
+    height: 70%;
+    margin: 20px;
+}
